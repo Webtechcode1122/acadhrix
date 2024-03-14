@@ -33,7 +33,7 @@ background-color: rgba(0, 0, 0, 0.088);
 #main{
     position: absolute;
     width:99%;
-    height:200vh;
+    height:170vh;
     border-top:solid white 10px;
     background-color: black;
     margin-top: 13vh;
@@ -58,5 +58,31 @@ background-color: rgba(0, 0, 0, 0.088);
     top:107vh;
     left:45vw;
 
+}
+#end{
+    position: absolute;
+    width:99%;
+    height:20vh;
+    border-top:solid white 10px;
+    background-color: black;
+    margin-top: 184vh;
+    margin-left:-0.1vw;
+    border-bottom: 10px solid white;
+    color: white;
+}
+#end h3{
+    text-decoration: none;
+    color:white;
+    float: right;
+    padding-right: 5vw;
+    padding-top:9vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#end img{
+    background-color: white;
+    padding: 5px 5px;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-radius: 10px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
