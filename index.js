@@ -32,12 +32,4 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-
-    // Logo Rotation Animation
-    gsap.to("#logo img", {
-        rotation: 360,
-        duration: 2,
-        repeat: -1,
-        ease: "linear"
-    });
 });
